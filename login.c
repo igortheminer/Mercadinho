@@ -77,7 +77,7 @@ int gera_login(void){/** FAZ LOGIN, CASO A SENHA DIGITADA SEJA INCORRETA RETORNA
 	setbuf(stdin, keyboard);
 	scanf("%u", &senha_digitada);
 	if(senha_digitada != senha_arq){
-		printf("\n\n\n\t\t\t___ACESSO_NEGADO___\n\t\t\t___SENHA_INCORRETA___\n\n");
+		printf("\n\n\n\t\t\t____ACESSO_NEGADO____\n\t\t\t___SENHA_INCORRETA___\n\n");
 		getch();
 		return 0;
 	}
